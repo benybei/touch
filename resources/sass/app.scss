@@ -1,7 +1,9 @@
 //$base-color: #000; // Seb color pour change la couleur
 $toolbar-base-color: #00FF00; //change la couleur du bas en hau
-$button-radius: .0em;
+$button-radius: .0em;// modifier les contour du bonton
+
 @import 'sencha-touch/default/all';
+
 
 
 // You may remove any of the following modules that you
@@ -27,3 +29,6 @@ $button-radius: .0em;
 //$toolbar-base-color: #EEEEEE !important;
 // $toolbar-border-color: #EEEEEE !important;
 //$neutral-color:red !important ;
+/*le help nexiste pas dans les fichier ajoute ces pour
+limage 4 dans notre programme pour plus dinfo va voir mixin.scss*/
+@include pictos-iconmask('help');
